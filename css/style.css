@@ -1,0 +1,30 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.message {
+    width: 350px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.messageDisplay {
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.control {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+#messageInput {
+    min-width: 0;
+    flex: 1;
+}
